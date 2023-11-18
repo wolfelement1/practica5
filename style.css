@@ -113,13 +113,13 @@ fieldset{
     0% {
         background-position: 0% 50%;
       }
-      100% {
+    100% {
         background-position: 100% 50%;
       }
 }
 
 .botom:hover {
-    background-image: linear-gradient(to right, blue, rgb(4, 242, 250));
+    background-image: linear-gradient(to top, blue, rgb(4, 242, 250));
     color: white;
   }
 
