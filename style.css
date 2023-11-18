@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    justify-content: center;
 }
 
 body{
     width: 1440px;
+    margin-left: 10%;
 }
 
 
@@ -103,7 +105,23 @@ fieldset{
     font-size: 16px;
     vertical-align: top;
     cursor: pointer;
+    animation: arcoiris 2s linear infinite;
+    background-size: 500% 500%;
 }
+
+@keyframes arcoiris {
+    0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 100% 50%;
+      }
+}
+
+.botom:hover {
+    background-image: linear-gradient(to right, blue, rgb(4, 242, 250));
+    color: white;
+  }
 
 .fila4{
     margin-top: 45px;
@@ -214,6 +232,7 @@ fieldset{
     display: flex;
     translate: -3px 5px;
     opacity: 0;
+    transition: opacity, 5s,ease-in-out;
 }
 
 .h:hover .rectangulo{
@@ -247,3 +266,4 @@ fieldset{
 .columnas2{
     translate: -55px;
 }
+

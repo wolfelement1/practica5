@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @keyframes arcoiris {
+      0% {
+        background-position: 50% 0%;
+      }
+      100% {
+        background-position: 50% 100%;
+      }
+    }
+
+    .boton-arcoiris {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      background-size: 200% 200%;
+      animation: arcoiris 5s linear infinite; /* Cambia la duración y el estilo de la animación según sea necesario */
+      transition: color 0.3s;
+    }
+
+    .boton-arcoiris:hover {
+      color: white;
+    }
+    .boton-arcoiris:hover {
+      background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <button class="boton-arcoiris">Presiona para el arcoíris</button>
+</body>
+</html>
