@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Neuton:wght@200;700;800&family=Poppins&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,4 +9,112 @@
 
 body{
     width: 1440px;
+   
 }
+
+.seccion3{
+  
+    display: flex;
+    justify-content: center;
+   
+}
+
+.servicesh2{
+    display: FLEX;
+    margin: 20px;
+    color:#0098EF;
+    
+   
+
+}
+.servicesh3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.services1{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 308px;
+    height: 218px;
+    background-color: #00CF95;
+    border: 5px solid #D1FFA2;
+    margin: 20px 10px 20px 10px;
+}
+
+.servicesh1{
+    display: flex;
+    margin-top: 50px;
+}
+
+.servicesp1{
+    display: flex;
+    background-color: #D1FFA2;
+    align-items: end;
+    justify-content: end;
+    
+    width: 202px;
+    height: 48px;
+    text-align: end;
+    padding-bottom: 11px;
+    border-radius: 8px 0 0 8px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    border-width: 2px 2px 2px 2px;
+    border-color: #0098EF;
+    
+    
+
+}
+
+.servicespp1 {
+    color: #5A0CB0;
+    font-weight: bold;
+    font-family: 'Neuton', serif;
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+}
+
+.servicesv1{
+  position: relative;  
+    right: 165px;
+    bottom: 115px;
+}
+.servicesv2{
+    position: relative;  
+      right: 135px;
+      bottom: 115px;
+  }
+.servicesv3{
+  position: relative;  
+    right: 105px;
+    bottom: 120px;
+}
+.servicesv4{
+    position: relative;  
+      right: 120px;
+      bottom: 118px;
+  }
+.servicesv5{
+    position: relative;  
+      right: 190px;
+      bottom: 123px;
+  }
+.servicesv6{
+    position: relative;  
+      right: 165px;
+      bottom: 130px;
+  }
+
+  
+  .servicespp1:hover{
+    color: white;
+    z-index: 10;
+  }
+
+  .services1:nth-child(1):hover{
+    border: 4px solid #5A0CB0;
+  }
+  .servicesp1:nth-child(1):hover{
+    background-color: #5A0CB0;
+  }
