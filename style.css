@@ -175,4 +175,127 @@ footer{
     padding-top: 13px;
 }
 
+/*----- seccion 1 -------*/
 
+.seccion{
+    width: 963px;
+    margin: auto;
+}
+
+.seccion h2{
+    font-family: var(--fuente-poppins);
+    font-size: 28px;
+    color: #0098EF;
+    font-weight: 500;
+}
+
+.principal .content-cards-port .grupo-cards{
+    display: flex;
+}
+
+.principal .content-cards-port .grupo-cards .card-prt{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 224px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-dt-card{
+    width: 178px;
+    height: 174px;
+    background: #6D0AD3CC;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    transition: all ease-in-out 0.4s;
+    opacity: 0;
+}
+
+
+
+.part-sup-card{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.part-sup-card h4{
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+.part-sup-card h5{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Raleway;
+    padding-top: 10px;
+}
+
+.part-inf-card{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-top: 32px;
+}
+
+.part-inf-card p{
+    font-size: 11px;
+    color: #580AAf;
+    background-color: #D1FFA2;
+    padding: 5px 8px;
+    border-radius: 10px;
+    font-family: Raleway;
+    font-weight: 600;
+    margin: 4px 3px;
+}
+
+.principal .content-cards-port .grupo-cards .background-cp-1{
+    background-image: url(./img/Rectangle-1.png);
+}
+
+.principal .content-cards-port .grupo-cards .background-cp-2{
+    background-image: url(./img/Rectangle-2.png);
+}
+
+.principal .content-cards-port .grupo-cards .background-cp-3{
+    background-image: url(./img/Rectangle-3.png);
+}
+
+.principal .content-cards-port .grupo-cards .background-cp-4{
+    background-image: url(./img/Rectangle-4.png);
+}
+
+.principal .content-cards-port .grupo-cards .background-cp-5{
+    background-image: url(./img/Rectangle-5.png);
+}
+
+.principal .content-cards-port .grupo-cards .background-cp-6{
+    background-image: url(./img/Rectangle-6.png);
+}
+
+.principal .content-cards-port .grupo-cards .background-cp-7{
+    background-image: url(./img/Rectangle-7.png);
+}
+
+.principal .content-cards-port .grupo-cards .background-cp-8{
+    background-image: url(./img/Rectangle-8.png);
+}
+
+.part-sup-card{
+    color: #fff;
+}
+
+.card-prt{
+    margin: 8px 8px;
+    cursor:pointer;
+}
+
+.card-prt:hover .info-dt-card{
+    opacity: 1;
+}
+
+/*---seccion 2----*/
