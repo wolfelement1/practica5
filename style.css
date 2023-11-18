@@ -299,3 +299,82 @@ footer{
 }
 
 /*---seccion 2----*/
+
+.cards-service{
+    display: flex;
+    width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.cards-service .group-cards-serv .bg-card-service{
+    background-image: url(./img/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 308px;
+    height: 218px;
+    
+}
+
+.cards-service .group-cards-serv .card-serv{
+    margin-bottom: 20px;
+}
+
+.cards-service .group-cards-serv .card-serv img{
+    width: 64px;
+    height: 64px;
+    margin-top: 15px;
+    margin-left: 20px;
+    
+}
+
+.name-cards-select{
+    display: flex;
+    height: 105px;
+    align-items: end;
+    justify-content: end;
+}
+
+.name-cards-select p{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #5A0CB0;
+    padding: 5px 35px;
+    background-color: #D1FFA2;
+    margin-right: 5px;
+    border-radius: 5px;
+    transition: all ease-in-out .2s;
+
+}
+
+.cards-service .group-cards-serv .card-serv:hover .name-cards-select p {
+    background-color: #5A0CB0;
+    color: #fff;
+}
+
+.card-serv{
+    position: relative;
+}
+
+.content-star{
+    position: absolute;
+    border: 0.3rem solid rgb(158, 3, 255);
+    width: 308px;
+    height: 218px;
+    border-radius: 10px;
+    transition: all ease-in-out .2s;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.content-star:hover {
+    opacity: 1;
+}
+
+/*link figma 05*/
+
+/*
+https://www.figma.com/file/m3nowMQ7tPo5TeAoMeXvlo/PRACTICA-4?type=design&node-id=0-1&mode=design&t=d10d1QspnxFJpfiW-0
+*/
+
