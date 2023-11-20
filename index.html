@@ -193,7 +193,7 @@
         </div>
       </section>
       <section class="seccion2 seccion">
-        <h2>SERVICES</h2>
+        <h2 class="subtittle-section">SERVICES</h2>
         <div class="content-service">
           <div class="cards-service">
             <div class="group-cards-serv">
@@ -246,7 +246,7 @@
         </div>
       </section>
       <section class="seccion3 seccion">
-        <h2>BLOG</h2>
+        <h2 class="subtittle-section">BLOG</h2>
         <div class="content-blog">
           <div class="cards-blog">
             <div class="card-info-blog" id="card-blog-1">
@@ -311,7 +311,11 @@
                 </p>
               </div>
               <div class="blog-suscribirce-button">
-                <input class="correo-casilla" type="email" placeholder="E-mail" />
+                <input
+                  class="correo-casilla"
+                  type="email"
+                  placeholder="E-mail"
+                />
                 <input class="boton-enviar" type="submit" value="Suscribete" />
               </div>
             </div>
@@ -319,9 +323,82 @@
         </div>
       </section>
       <section class="seccion4 seccion">
-        <h2>PORTFOLIO</h2>
+        <h2 class="subtittle-section">CONTACT</h2>
+        <div class="content-contact">
+          <form action="">
+            <div class="cards-cnt-blq">
+              <input class="gen-input" type="text" placeholder="Nombre" />
+              <input class="gen-input" type="tel" placeholder="Telefono" />
+            </div>
+            <div class="cards-cnt-blq">
+              <select class="gen-input" name="lenguajes" id="lang">
+                <option value="">Tipo de proyecto</option>
+                <option value="">JS El nuevo Rey</option>
+                <option value="">CSS3 ANIMATIONS</option>
+                <option value="">JS Engine</option>
+                <option value="">Javascript animation</option>
+              </select>
+              <select class="gen-input" name="lenguajes" id="lang">
+                <option value="">Presupuesto</option>
+                <option value="">Free</option>
+                <option value="">Low cost</option>
+                <option value="">Medium cost</option>
+                <option value="">High cost</option>
+              </select>
+            </div>
+            <div class="cards-cnt-blq">
+              <textarea
+                class="cuadro-de-texto-form"
+                name=""
+                id=""
+                cols="30"
+                rows="5"
+                placeholder="Cuentanos mas"
+              ></textarea>
+            </div>
+            <div class="cards-cnt-blq" id="btn-form-position">
+              <input class="boton-enviar-form" type="submit" value="Enviar" />
+            </div>
+          </form>
+        </div>
       </section>
     </main>
-    <footer class="global"></footer>
+    <footer class="footer">
+      <div class="content-footer">
+        <div class="fft-bql-1">
+          <div class="item-separate-fft-head">
+            <a href=""><img src="./img/logo.png" alt="" /></a>
+          </div>
+          <div class="item-separate-fft-head bloque-2-form-hd-t">
+            <h2>GRACIAS</h2>
+            <h2>POR VISITARNOS</h2>
+          </div>
+          <div class="item-separate-fft-head bloque-2-form-hd">
+            <div class="content-fft-icons">
+              <a href=""><img src="./img/mdi_linkedin.png" alt="" /></a>
+              <a href=""><img src="./img/mdi_github.png" alt="" /></a>
+              <a href=""><img src="./img/mdi_codepen.png" alt="" /></a>
+              <a href=""><img src="./img/mdi_email.png" alt="" /></a>
+              <a href=""><img src="./img/mdi_whatsapp.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="fft-bql-2">
+          <div class="content-ftt-services">
+            <ul>
+              <li><a href="">Sobre mi</a></li>
+              <li><a href="">Portafolio</a></li>
+              <li><a href="">Servicios</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="fft-bql-2">
+          <span
+            >Con <img src="./img/corazon.png" alt="" /> desde Lima - Perú</span>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

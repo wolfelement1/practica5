@@ -153,7 +153,7 @@ footer{
     padding: 0 2.5px;
 }
 
-.scroll{
+.global .scroll{
     width: 60px;
     height: 120px;
     margin: 0 auto;
@@ -162,6 +162,7 @@ footer{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: all ease-out 0.4s;
 }
 
 .scroll img{
@@ -173,7 +174,14 @@ footer{
     font-size: 13px;
     font-family: Raleway;
     padding-top: 13px;
+
 }
+
+.global .scroll:hover{
+    padding-top: 80px;
+    opacity: 0;
+}
+
 
 /*----- seccion 1 -------*/
 
@@ -187,6 +195,11 @@ footer{
     font-size: 28px;
     color: #0098EF;
     font-weight: 500;
+    padding-bottom: 50px;
+}
+
+.subtittle-section{
+    padding-top: 80px;
 }
 
 .principal .content-cards-port .grupo-cards{
@@ -617,6 +630,131 @@ footer{
     cursor: pointer;
 }
 
+
+/*---- seccion 4----*/
+
+.content-contact{
+    width: 636px;
+    margin: 0 auto;
+    
+}
+
+.cards-cnt-blq{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.cards-cnt-blq .gen-input{
+    width: 308px;
+    height: 57px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.219);
+    padding-left:  10px;
+    color: rgba(0, 0, 0, 0.62);
+}
+
+.cuadro-de-texto-form{
+    width: 100%;
+    height: 150px;
+    padding-left: 10px;
+    padding-top: 15px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.219);
+}
+
+#btn-form-position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-enviar-form{
+    width: 144px;
+    height: 57px;
+    border-radius: 8px;
+    border: none;
+    background-color: #6D0Ad3;
+    color: #fff;
+    font-size: 16px;
+    font-family: Raleway;
+    line-height: 24px;
+}
+
+/*------footer-------*/
+
+.footer{
+    width: 963px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.content-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.fft-bql-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-separate-fft-head{
+    width: 321px;
+    height: 70px;
+    
+}
+
+.item-separate-fft-head h2{
+    font-size: 28px;
+    line-height: 35px;
+    font-family: Raleway;
+    color: #00CF95;
+    
+}
+
+.bloque-2-form-hd-t{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bloque-2-form-hd{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+}
+
+.content-fft-icons{
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.fft-bql-2 .content-ftt-services ul{
+    width: 385px;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+}
+
+.fft-bql-2 .content-ftt-services ul li{
+    list-style: none;
+}
+
+.fft-bql-2 .content-ftt-services ul li a{
+    text-decoration: none;
+    color: black;
+    transition: all ease-in-out 0.3s;
+}
+
+.fft-bql-2 .content-ftt-services ul li a:hover{
+    border-bottom: #5A0CB0 solid 4px;
+}
 
 
 
